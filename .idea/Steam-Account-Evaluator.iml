@@ -5,8 +5,9 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/PythonProject/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Steam_Account_Evaluator Code/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="~/local_repos/Steam-Account-Evaluator/.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
