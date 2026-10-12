@@ -1,3 +1,4 @@
+@ -0,0 +1,52 @@
 <!DOCTYPE html>
 <html lang="de">
 
@@ -19,34 +20,40 @@
         <p>Your Steam URL</p>
         <input type="text" placeholder="Steam URL hier">
 
-        <button>EVALUATE ↓</button>
+        <button>EVALUATE </button>
 
     </div>
 
+   <div class="box2">
+     <h3>{{ steamAccountName }}</h3>
 
-    <div class="result">
+        <p>
+             Total Hours:
+            <strong>{{ totalHours }}</strong>
+        </p>
 
-        <h2>Your Rank</h2>
+        <p>
+             Owned Games:
+            <strong>{{ ownedGames }}</strong>
+        </p>
 
-        <p>S Rank</p>
-        <p>A Rank</p>
-        <p>B Rank</p>
-        <p>C Rank</p>
-        <p>D Rank</p>
-        <p>F Rank</p>
+        <p>
+             Account Created:
+            <strong>{{ timeCreated }}</strong>
+        </p>
 
-    </div>
+        <p>
+             Avatar URL
+            <strong>{{ avatarURL }}</strong>
+        </p>
+    
+    
+    
+    
+   </div>
 
 
-    <div class="leaderboard">
-
-        <h2>Leaderboard</h2>
-
-        <p>1. Max - S Rank</p>
-        <p>2. Alex - A Rank</p>
-        <p>3. Tom - B Rank</p>
-
-    </div>
+   
 
 </body>
 </html>
