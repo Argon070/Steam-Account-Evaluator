@@ -33,11 +33,6 @@
         </p>
 
         <p>
-             Owned Games:
-            <strong>{{ ownedGames }}</strong>
-        </p>
-
-        <p>
              Account Created:
             <strong>{{ timeCreated }}</strong>
         </p>
@@ -47,12 +42,20 @@
             <strong>{{ avatarURL }}</strong>
         </p>
     
-    
-    
-    
    </div>
 
+    <div class="topgames">
+        <li>{{ top1Game }}</li>
+        <li>{{ top2Game }}</li>
+        <li>{{ top3Game }}</li>
+        <li>{{ top4Game }}</li>
+        <li>{{ top5Game }}</li>
+    </div>
 
+    <h2>
+        Your RANK 
+        <strong>{{ playerRank }}</strong>
+    </h2>
    
 
 </body>
