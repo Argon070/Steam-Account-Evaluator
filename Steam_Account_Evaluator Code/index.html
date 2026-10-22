@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Steam-Account-Evaluator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Evaluate Steam Account</h1>
+
+        <p>Steam_ID</p>
+        <input type="text" placeholder="Enter your Steam_ID here">
+
+        <button>EVALUATE </button>
+
+    </div>
+
+   <div class="box2">
+     <h3>{{ steamAccountName }}</h3>
+
+        <p>
+             Total Hours:
+            <strong>{{ totalHours }}</strong>
+        </p>
+
+        <p>
+             Account Created:
+            <strong>{{ timeCreated }}</strong>
+        </p>
+
+        <img src="{{ avatarURL }}" alt="Avatar" width="120">
+
+   </div>
+
+    <div class="topgames">
+        <li>{{ top1Game.name }}</li>
+        <li>{{ top2Game.name }}</li>
+        <li>{{ top3Game.name }}</li>
+        <li>{{ top4Game.name }}</li>
+        <li>{{ top5Game.name }}</li>
+    </div>
+
+    <h2>
+        Your RANK
+        <strong>{{ playerRank }}</strong>
+    </h2>
+
+
+</body>
+</html>
